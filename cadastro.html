@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="./flores.css">
+    <link rel="stylesheet" href="./cadastro.css">
+</head>
+<body>
+    <header>
+        <h1>Beleza e Significado: Explorando o Mundo Encantador das Flores</h1>
+    </header>
+    <nav>
+        <a href="flores.html">Flores</a>
+        <a href="caracteristicas.html">Características</a>
+        <a href="faq.html">FAQ</a>
+        <a href="cadastro.html">Cadastro</a>
+    </nav>
+
+    <main>
+        <form action="" method="post" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Cadastro</legend>
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Rosa">
+                </div>
+                <div>
+                    <label for="origem">Origem Geográfica:</label>
+                    <input type="origem" name="origem" id="nome" placeholder="América">
+                </div>
+                <div>
+                    <input type="radio" name="cor" value="A" id="amarelo">
+                    <label for="masculino">Amarelo</label>
+                    <input type="radio" name="cor" value="B" id="branco">
+                    <label for="feminino">Branco</label>
+                    <input type="radio" name="cor" value="V" id="variada">
+                    <label for="feminino">Variada</label>
+                </div>
+                <div>
+                    <label for="periodo">Período de Floração</label>
+                    <select name="Periodo" id="periodo">
+                        <option value=""></option>
+                        <option value="verao">Verão</option>
+                        <option value="primavera">Primavera</option>
+                        <option value="outono">Outono</option>
+                        <option value="inverno">Inverno</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="arquivo">Imagem da Flor:</label>
+                    <input type="file" name="arquivo" id="arquivo">
+                </div>
+                <div>
+                    <p>Características</p>
+                    <label for="carac"></label>
+                    <textarea name="carac" id="carac" cols="40" rows="5"></textarea>
+                </div>
+                <div class="botao">
+                    <button class="botao1" type="submit"><b>Salvar</b></button>
+                    <button class="botao2" type="reset"><b>Limpar</b></button>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <h4>© copyleft </h4>
+    </footer>
+</body>
+</html>

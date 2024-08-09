@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+
+:root{
+    --primary: #C62828;
+    --secondary: #E7DA26;
+    --black: #000;
+    --white: #FFF;
+}
+
+header{
+    background-image: url(img/banner1.png);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 6rem;
+    font-size: x-large;
+    color: var(--white)
+}
+
+nav{
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 2.5rem;
+    font-size: xx-large;
+}
+
+nav a{
+    color: var(--white);
+    text-decoration: none;
+    display: flex;
+    font-weight: bold;
+}
+
+main{
+    font-size: x-large;
+    min-height: calc(100vh - 12.5rem);
+    margin: 1rem;
+}
+
+footer{
+    display: flex;
+    background-color: var(--primary);
+    color: var(--white);
+    align-items: center;
+    justify-content: end;
+    height: 2rem;
+}
